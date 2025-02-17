@@ -124,3 +124,21 @@ if (testimonialsSlider) {
     // Auto-play do slider
     setInterval(nextSlide, 5000);
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    let elements = document.querySelectorAll(".scroll-effect");
+
+    function checkScroll() {
+        let windowHeight = window.innerHeight;
+        elements.forEach((el) => {
+            let position = el.getBoundingClientRect().top;
+            if (position < windowHeight - 50) {
+                el.classList.add("visible");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", checkScroll);
+    checkScroll(); // Executa ao carregar a página
+});
