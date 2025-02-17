@@ -672,14 +672,4 @@ section h2 {
     transform: translateY(-100%);
 }
 
-/* Efeito de surgimento ao rolar a tela */
-.scroll-effect {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
 
-.scroll-effect.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
