@@ -40,11 +40,10 @@ nav {
     margin: 0 auto;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #34495E;
-    text-decoration: none;
+.logo img {
+    max-width: 100px;
+    max-height: 100px;
+    
 }
 
 .nav-links {
