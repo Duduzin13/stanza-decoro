@@ -51,11 +51,8 @@ nav {
     display: flex;
     list-style: none;
     gap: 2rem;
-    max-width: 200px;
-    max-height: 400px;
     border-radius: 0px 0px 8px 0px;
 }
-
 .nav-links a {
     text-decoration: none;
     color: #34495E;
@@ -661,6 +658,32 @@ section h2 {
     .reviews-grid {
         grid-template-columns: 1fr;
         padding: 0 1rem;
+    }
+}
+
+/* Para telas menores (modo mobile) */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        background: white;
+        padding: 1rem;
+        max-width: 200px;
+        max-height: 400px;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Para telas maiores (modo desktop) */
+@media (min-width: 769px) {
+    .nav-links {
+        flex-direction: row;
+        position: static; /* Mantém a posição padrão */
+        background: transparent;
+        max-width: none;
+        max-height: none;
     }
 }
 
