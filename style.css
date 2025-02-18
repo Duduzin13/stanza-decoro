@@ -51,6 +51,10 @@ nav {
     display: flex;
     list-style: none;
     gap: 2rem;
+    margin-right: auto;
+    max-width: 200px;
+    max-height: 400px;
+    border-radius: 0px 0px 8px 0px;
 }
 
 .nav-links a {
