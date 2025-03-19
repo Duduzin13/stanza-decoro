@@ -65,25 +65,25 @@ document.addEventListener('DOMContentLoaded', function() {
               <ul class="links-list">
                 <li class="links-item">
                   <a href="index.html#home" class="link-with-icon">
-                    <span class="footer-link">Início</span>
+                    <span class="footer-link2">Início</span>
                     <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
                   </a>
                 </li>
                 <li class="links-item">
                   <a href="index.html#sobre" class="link-with-icon">
-                    <span class="footer-link">Sobre</span>
+                    <span class="footer-link2">Sobre</span>
                     <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
                   </a>
                 </li>
                 <li class="links-item">
                   <a href="index.html#servicos" class="link-with-icon">
-                    <span class="footer-link">Últimos Serviços</span>
+                    <span class="footer-link2">Últimos Serviços</span>
                     <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
                   </a>
                 </li>
                 <li class="links-item">
                   <a href="index.html#parceiros" class="link-with-icon">
-                    <span class="footer-link">Parcerias</span>
+                    <span class="footer-link2">Parcerias</span>
                     <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
                   </a>
                 </li>
