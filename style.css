@@ -137,7 +137,7 @@ nav {
 .portfolio-hero {
     height: 60vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1600') center/cover;
+                url('cabeceiras/cabeceiras-7.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -151,13 +151,14 @@ nav {
 }
 
 .portfolio-hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 4rem;
+    margin-bottom: 0rem;
+    margin-top: 8rem;
 }
 
 .portfolio-hero p {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* Galeria do Portfólio */
@@ -279,14 +280,17 @@ nav {
 /* Hero Section */
 .hero, .page-hero {
     height: 100vh;
+    width: 100%vh;
+    
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1600') center/cover;
+                url('cabeceiras/cabeceiras-7.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
     padding: 0 1rem;
+
 }
 
 .page-hero {

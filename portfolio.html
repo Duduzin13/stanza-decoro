@@ -166,7 +166,8 @@
                     <img src="cabeceiras/cabeceiras-4.jpg" alt="Cabeceira Estofada Contemporânea">
                     <h3>Cabeceira Marrom Minimalista – Sofisticação e Conforto</h3>
                     <p>Com linhas retas e seções acolchoadas, esta cabeceira une minimalismo e aconchego. O revestimento marrom fosco realça a elegância, enquanto sua altura equilibrada garante conforto sem sobrecarregar o ambiente.</p>
-                </div><div class="gallery-item" data-category="complementos">
+                </div>
+                <div class="gallery-item" data-category="complementos">
                     <img src="cabeceiras/cabeceiras-5.jpg" alt="Cabeceira Estofada Contemporânea">
                     <h3>Cabeceira Azul-Claro – Minimalismo e Conforto</h3>
                     <p>Com design simples e estofado uniforme, esta cabeceira azul-claro complementa o ambiente clean e funcional. A disposição em L das camas otimiza o espaço, garantindo conforto e praticidade.</p>
@@ -181,8 +182,8 @@
                     <h3>Elegância e Conforto – Cabeceira, Forro de Cama e Recamier</h3>
                     <p>A cabeceira em veludo cinza-escuro adiciona elegância ao ambiente, combinando com o forro de cama neutro. O recamier completa o conjunto com design minimalista e pés metálicos modernos.</p>
                 </div>
-                
-                
+
+
 
 
 
@@ -302,8 +303,8 @@
                     <h3>Cortinas de Teto – Elegância e Sofisticação</h3>
                     <p>Cortinas drapeadas de teto criam um efeito ondulado suave, filtrando a luz com elegância. O tecido translúcido proporciona um ambiente sofisticado e acolhedor.</p>
                 </div>
-                
-               
+
+
                 <!-- Adicionando novas imagens de Cortinas -->
                 <div class="gallery-item" data-category="revestimentos">
                     <img src="cortinas/cortinas-5.jpg" alt="Cortina Adicional 5">
@@ -325,17 +326,12 @@
         </section>
     </main>
 
-    <div id="footer"></div>
+
+    <div id="footer-container"></div>
+    <script src="/footer.js"></script>
 
 
-    <script>
-        fetch("footer.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("footer").innerHTML = data;
-            })
-            .catch(error => console.error("Erro ao carregar o footer:", error));
-    </script>
+
 
 
     <script src="main.js"></script>

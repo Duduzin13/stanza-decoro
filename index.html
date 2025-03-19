@@ -66,7 +66,7 @@
                     </p>
                 </div>
                 <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800" alt="Interior Design">
+                    <img src="sofas/SOFA-9.2.png" alt="Interior Design">
                 </div>
             </div>
         </section>
@@ -102,6 +102,7 @@
               <div class="parceiros"><a href="https://casacor.abril.com.br/pt-BR" target="_blank" rel="noopener noreferrer"><img src="https://static.wixstatic.com/media/f8c6d2_466e4c5341f246ac84b6d99cde9c897f~mv2.png/v1/fill/w_460,h_182,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f8c6d2_466e4c5341f246ac84b6d99cde9c897f~mv2.png" alt="CASACOR SP"></a></div>
               <div class="parceiros"><a href="https://www.baliexpress.com.br/" target="_blank" rel="noopener noreferrer"><img src="https://static.wixstatic.com/media/08217a_453a781fa27e4c5481caebf83d61da45~mv2.png/v1/crop/x_204,y_289,w_774,h_621/fill/w_182,h_140,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20BALI%20EXPRESS%20LIFESTYLE_Prancheta%201.png" alt="Bali Express"></a></div>
             </div>
+            
           </section>
 
           
@@ -111,40 +112,18 @@
 
         
 
-        <div id="footer"></div>
+        
 
-        <script>
-            fetch("footer.html")
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById("footer").innerHTML = data;
-                })
-                .catch(error => console.error("Erro ao carregar o footer:", error));
-        </script>
+        
         
 
     
+          
+    <div id="footer-container"></div>
+    <script src="/footer.js"></script>
 
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        // Ativa todos os carrosséis com a classe 'swiper'
-        document.addEventListener("DOMContentLoaded", function () {
-          document.querySelectorAll(".mySwiper").forEach((element, index) => {
-            new Swiper(element, {
-              slidesPerView: 1, // Exibir uma imagem por vez
-              loop: true, // Loop infinito
-              autoplay: {
-                delay: 2500, // Troca de imagem a cada 2.5 segundos
-                disableOnInteraction: false, // Continua rodando mesmo se o usuário interagir
-              },
-              pagination: {
-                el: element.querySelector(".swiper-pagination"),
-                clickable: true,
-              },
-            });
-          });
-        });
-      </script>
+    
 </body>
 </html>
