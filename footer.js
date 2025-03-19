@@ -49,10 +49,11 @@ document.addEventListener('DOMContentLoaded', function() {
                   <span class="contact-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                   </span>
-                  <p class="contact-content">
+                  <a class="footer-link" href="https://maps.app.goo.gl/UvT1xA6Q6wvU4sv38">
                     Rua Armando Erse Figueiredo, 143<br>
                     São Paulo, Brazil 05761340
-                  </p>
+                  </a>
+                  
                 </li>
               </ul>
             </div>
